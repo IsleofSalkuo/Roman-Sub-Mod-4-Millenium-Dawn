@@ -1,0 +1,44 @@
+
+state={
+	id=160
+	name="STATE_160"
+	
+	resources = {
+		steel = 12
+	}
+	
+	history={
+		owner = RME
+		victory_points = {
+			11584 20 
+		}
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 5
+			arms_factory = 3
+			nuclear_reactor = 1
+			air_base = 4
+			dockyard = 1
+			11584 = {
+				naval_base = 6
+
+			}
+
+		}
+		add_core_of = RME
+		add_core_of = VNT
+		add_core_of = ITA
+		2006.1.1 = {
+			owner = ITA
+			remove_core_of = RME
+		}
+
+	}
+
+	provinces={
+		603 628 3604 3657 6631 6656 9582 9598 9613 11584 
+	}
+	manpower=6163151
+	buildings_max_level_factor=1.000
+	state_category = state_level_14
+}

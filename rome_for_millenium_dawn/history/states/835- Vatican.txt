@@ -1,0 +1,23 @@
+
+state={
+	id=835
+	name="STATE_835"
+	manpower = 854
+	state_category = state_level_1
+	history={
+		owner = RME
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = RME
+		victory_points = { 13205 1 }
+		add_core_of = ITA
+		2006.1.1 = {
+			owner = ITA
+			remove_core_of = RME
+		}
+	}
+	provinces={
+		13205 
+	}
+}

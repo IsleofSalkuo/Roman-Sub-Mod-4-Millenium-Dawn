@@ -1,0 +1,7 @@
+spriteTypes = {	
+
+	SpriteType = {
+		name = "GFX_idea_romanideas"
+		texturefile = "gfx/interface/ideas/RME/romanideas.dds"
+		}
+}	

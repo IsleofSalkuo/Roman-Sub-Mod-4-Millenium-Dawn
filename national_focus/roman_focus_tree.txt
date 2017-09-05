@@ -1,0 +1,540 @@
+focus_tree = {
+	id = roman_focus_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = RME
+		}
+	}
+	default = no
+	focus = {
+		id = RME_ideology
+		icon = GFX_focus_generic_home_defense
+		cost = 10.00
+		x = 7
+		y = 0
+
+	}
+	focus = {
+		id = RME_factories
+		icon = GFX_goal_generic_construction2
+		cost = 10.00
+		x = 19
+		y = 0
+
+	}
+	focus = {
+		id = RME_diplomacy
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 28
+		y = 0
+
+	}
+	focus = {
+		id = RME_ancient
+		icon = GFX_focus_rom_royal_dictatorship
+		cost = 10.00
+		prerequisite = {
+			focus = RME_ideology
+		}
+		mutually_exclusive = {
+			focus = RME_republic
+			focus = RME_new_revolutions
+		}
+		x = 2
+		y = 1
+
+	}
+	focus = {
+		id = RME_senate_republic
+		icon = GFX_focus_SAF_support_ossewabrandwag
+		cost = 10.00
+		prerequisite = {
+			focus = RME_ancient
+		}
+		mutually_exclusive = {
+			focus = RME_augustus_monarchy
+		}
+		x = 1
+		y = 2
+
+	}
+	focus = {
+		id = RME_plaetorian_guard
+		icon = GFX_focus_generic_little_entente
+		cost = 10.00
+		prerequisite = {
+			focus = RME_senate_republic
+		}
+		x = 1
+		y = 3
+
+	}
+	focus = {
+		id = RME_exploit_barbarians
+		icon = GFX_focus_cze_german_puppet
+		cost = 10.00
+		prerequisite = {
+			focus = RME_plaetorian_guard
+		}
+		x = 1
+		y = 4
+
+	}
+	focus = {
+		id = RME_augustus_monarchy
+		icon = GFX_focus_rom_royal_dictatorship
+		cost = 10.00
+		prerequisite = {
+			focus = RME_ancient
+		}
+		mutually_exclusive = {
+			focus = RME_senate_republic
+		}
+		x = 3
+		y = 2
+
+	}
+	focus = {
+		id = RME_reform_generals_power
+		icon = GFX_focus_generic_license_production
+		cost = 10.00
+		prerequisite = {
+			focus = RME_augustus_monarchy
+		}
+		x = 3
+		y = 3
+
+	}
+	focus = {
+		id = RME_banish_barbarians
+		icon = GFX_focus_cze_military_aeronautical_institute
+		cost = 10.00
+		prerequisite = {
+			focus = RME_reform_generals_power
+		}
+		x = 3
+		y = 4
+
+	}
+	focus = {
+		id = RME_republic
+		icon = GFX_focus_generic_the_giant_wakes
+		cost = 10.00
+		prerequisite = {
+			focus = RME_ideology
+		}
+		mutually_exclusive = {
+			focus = RME_ancient
+			focus = RME_new_revolutions
+		}
+		x = 7
+		y = 1
+
+	}
+	focus = {
+		id = RME_strengthen_democracy
+		icon = GFX_goal_support_democracy
+		cost = 10.00
+		prerequisite = {
+			focus = RME_republic
+		}
+		x = 7
+		y = 2
+
+	}
+	focus = {
+		id = RME_unite_rome
+		icon = GFX_goal_continuous_increase_nu
+		cost = 10.00
+		prerequisite = {
+			focus = RME_strengthen_democracy
+		}
+		x = 7
+		y = 3
+
+	}
+	focus = {
+		id = RME_right
+		icon = GFX_goal_generic_demand_territory
+		cost = 10.00
+		prerequisite = {
+			focus = RME_unite_rome
+		}
+		mutually_exclusive = {
+			focus = RME_left
+		}
+		x = 6
+		y = 4
+
+	}
+	focus = {
+		id = RME_left
+		icon = GFX_focus_generic_self_management
+		cost = 10.00
+		prerequisite = {
+			focus = RME_unite_rome
+		}
+		mutually_exclusive = {
+			focus = RME_right
+		}
+		x = 8
+		y = 4
+
+	}
+	focus = {
+		id = RME_new_revolutions
+		icon = GFX_focus_renounce_the_treaty_of_triannon
+		cost = 10.00
+		prerequisite = {
+			focus = RME_ideology
+		}
+		mutually_exclusive = {
+			focus = RME_ancient
+			focus = RME_republic
+		}
+		x = 12
+		y = 1
+
+	}
+	focus = {
+		id = RME_worker_ideas
+		icon = GFX_focus_generic_join_comintern
+		cost = 10.00
+		prerequisite = {
+			focus = RME_new_revolutions
+		}
+		mutually_exclusive = {
+			focus = RME_muhammad_ideas
+		}
+		x = 11
+		y = 2
+
+	}
+	focus = {
+		id = RME_senate_commitee
+		icon = GFX_focus_generic_soviet_politics
+		cost = 10.00
+		prerequisite = {
+			focus = RME_worker_ideas
+		}
+		x = 11
+		y = 3
+
+	}
+	focus = {
+		id = RME_unite_workers_communist
+		icon = GFX_focus_yug_pan_slavic_congress
+		cost = 10.00
+		prerequisite = {
+			focus = RME_senate_commitee
+		}
+		x = 11
+		y = 4
+
+	}
+	focus = {
+		id = RME_muhammad_ideas
+		icon = GFX_goal_generic_political_pressure
+		cost = 10.00
+		prerequisite = {
+			focus = RME_new_revolutions
+		}
+		mutually_exclusive = {
+			focus = RME_worker_ideas
+		}
+		x = 13
+		y = 2
+
+	}
+	focus = {
+		id = RME_senate_islamic_court
+		icon = GFX_focus_generic_self_management
+		cost = 10.00
+		prerequisite = {
+			focus = RME_muhammad_ideas
+		}
+		x = 13
+		y = 3
+
+	}
+	focus = {
+		id = RME_unite_people_islamic
+		icon = GFX_focus_generic_little_entente
+		cost = 10.00
+		prerequisite = {
+			focus = RME_senate_islamic_court
+		}
+		x = 13
+		y = 4
+
+	}
+	focus = {
+		id = RME_expand_economy
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10.00
+		prerequisite = {
+			focus = RME_factories
+		}
+		x = 19
+		y = 1
+
+	}
+	focus = {
+		id = RME_invest_south
+		icon = GFX_goal_generic_consumer_goods
+		cost = 10.00
+		prerequisite = {
+			focus = RME_expand_economy
+		}
+		x = 19
+		y = 2
+
+	}
+	focus = {
+		id = RME_mf1
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10.00
+		prerequisite = {
+			focus = RME_invest_south
+		}
+		x = 18
+		y = 3
+
+	}
+	focus = {
+		id = RME_cf1
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10.00
+		prerequisite = {
+			focus = RME_invest_south
+		}
+		x = 20
+		y = 3
+
+	}
+	focus = {
+		id = RME_cf2
+		icon = GFX_goal_continuous_repairments
+		cost = 10.00
+		prerequisite = {
+			focus = RME_cf1
+		}
+		x = 20
+		y = 4
+
+	}
+	focus = {
+		id = RME_Europe
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = RME_diplomacy
+		}
+		x = 24
+		y = 1
+
+	}
+	focus = {
+		id = RME_the_west
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = RME_Europe
+		}
+		mutually_exclusive = {
+			focus = RME_neutral
+			focus = RME_the_east
+		}
+		x = 22
+		y = 2
+
+	}
+	focus = {
+		id = RME_neutral
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = RME_Europe
+		}
+		mutually_exclusive = {
+			focus = RME_the_west
+			focus = RME_the_east
+		}
+		x = 24
+		y = 2
+
+	}
+	focus = {
+		id = RME_the_east
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = RME_Europe
+		}
+		mutually_exclusive = {
+			focus = RME_the_west
+			focus = RME_neutral
+		}
+		x = 26
+		y = 2
+
+	}
+	focus = {
+		id = RME_Asia
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = RME_diplomacy
+		}
+		x = 32
+		y = 1
+
+	}
+	focus = {
+		id = RME_india
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = RME_Asia
+		}
+		mutually_exclusive = {
+			focus = RME_china
+			focus = RME_australia
+		}
+		x = 30
+		y = 2
+
+	}
+	focus = {
+		id = RME_china
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = RME_Asia
+		}
+		mutually_exclusive = {
+			focus = RME_india
+			focus = RME_australia
+		}
+		x = 32
+		y = 2
+
+	}
+	focus = {
+		id = RME_senate_reform
+		icon = GFX_focus_SAF_support_ossewabrandwag
+		cost = 10.00
+		prerequisite = {
+			focus = RME_exploit_barbarians
+		}
+		x = 1
+		y = 5
+
+	}
+	focus = {
+		id = RME_headofstate_reform
+		icon = GFX_focus_rom_royal_dictatorship
+		cost = 10.00
+		prerequisite = {
+			focus = RME_banish_barbarians
+		}
+		x = 3
+		y = 5
+
+	}
+	focus = {
+		id = RME_conservative_reform
+		icon = GFX_focus_generic_support_the_left_right
+		cost = 10.00
+		prerequisite = {
+			focus = RME_right
+		}
+		x = 6
+		y = 5
+
+	}
+	focus = {
+		id = RME_liberal_reform
+		icon = GFX_focus_generic_support_the_left_right
+		cost = 10.00
+		prerequisite = {
+			focus = RME_left
+		}
+		x = 8
+		y = 5
+
+	}
+	focus = {
+		id = RME_leader_secretary
+		icon = GFX_goal_support_communism
+		cost = 10.00
+		prerequisite = {
+			focus = RME_unite_workers_communist
+		}
+		x = 11
+		y = 5
+
+	}
+	focus = {
+		id = RME_islamic_republic
+		icon = GFX_goal_support_fascism
+		cost = 10.00
+		prerequisite = {
+			focus = RME_unite_people_islamic
+		}
+		x = 13
+		y = 5
+
+	}
+	focus = {
+		id = RME_mf2
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10.00
+		prerequisite = {
+			focus = RME_mf1
+		}
+		x = 18
+		y = 4
+
+	}
+	focus = {
+		id = RME_mf3
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10.00
+		prerequisite = {
+			focus = RME_mf2
+		}
+		x = 18
+		y = 5
+
+	}
+	focus = {
+		id = RME_cf3
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10.00
+		prerequisite = {
+			focus = RME_cf2
+		}
+		x = 20
+		y = 5
+
+	}
+	focus = {
+		id = RME_australia
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = RME_Asia
+		}
+		mutually_exclusive = {
+			focus = RME_india
+			focus = RME_china
+		}
+		x = 34
+		y = 2
+
+	}
+}

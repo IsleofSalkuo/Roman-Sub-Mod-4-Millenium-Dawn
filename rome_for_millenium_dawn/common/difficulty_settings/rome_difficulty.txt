@@ -1,0 +1,10 @@
+difficulty_settings = {
+
+	difficulty_setting = {
+		key = "custom_diff_strong_rme"
+		modifier = diff_strong_ai_generic
+		countries = { RME }
+		multiplier = 2.0
+	}
+	
+}

@@ -1,0 +1,38 @@
+ideas = {
+
+	country = {
+			
+		RME_government = {
+		    picture = romanideas
+			
+			allowed = { always = no }
+			
+			modifier = {
+				conscription_factor = 0.3
+				army_leader_start_level = 2
+				experience_gain_army = 0.03
+				experience_gain_navy = 0.03
+				experience_gain_air = 0.03
+                political_power_gain = -0.25
+                training_time_factor = -0.1
+
+			}
+		}
+		
+		RME_factories = {
+		    picture = romanideas
+			
+			allowed = { always = no }
+			
+			modifier = {
+				factory_output = 0.25
+				industrial_capacity_factory = 0.4
+		        global_building_slots_factor = 0.5
+				production_factory_max_efficiency_factor = 0.3
+				production_factory_efficiency_gain_factor = 0.4
+			}
+		}
+		
+		
+	}
+}

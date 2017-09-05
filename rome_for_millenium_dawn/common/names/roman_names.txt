@@ -1,0 +1,14 @@
+﻿RME = {
+	male = {
+		names = { Amulius Appius Caelus Canus Decius Kaeso Lar Oppius Paulus Publius Tiberius Secundus Servius Vel Vibius Vopiscus 
+		  }
+	}
+	female = {
+		names = { Artoria Caristania Duccia Epidia Flavinia Manilia Metilia Pinaria Tettia 
+		 }
+	}
+	surnames = {
+		Regula Herculia Comitiana Vala Musa Nertomara Drusillus Celer Gerardus Afer Lateranus
+	 }
+	callsigns = { }
+}
