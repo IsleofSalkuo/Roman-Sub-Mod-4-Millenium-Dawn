@@ -1,10 +1,18 @@
 spriteTypes = {	
-
+    
+	# Government
 	SpriteType = {
-		name = "GFX_idea_romanideas"
-		texturefile = "gfx/interface/ideas/RME/romanideas.dds"
-		}
-		
+		name = "GFX_idea_roman_factories"
+		texturefile = "gfx/interface/ideas/RME/Government/romanideas.dds"
+	}
+	
+	
+	# Military
+	SpriteType = {
+		name = "GFX_idea_roman_military"
+		texturefile = "gfx/interface/ideas/RME/Military/roman_military_effort_1.dds"
+	}
+	
 	
 	### NON CORE LAWS
 	# Acceptance
@@ -32,7 +40,6 @@ spriteTypes = {
 		name = "GFX_idea_accept_them_as_citizens"
 		texturefile = "gfx/interface/ideas/RME/NonCore/Acceptance/idea_accept_them_as_citizens.dds"
 	}
-	
 	# Conscription
 	spriteType = {
 		name = "GFX_idea_disarmed_non_core"
