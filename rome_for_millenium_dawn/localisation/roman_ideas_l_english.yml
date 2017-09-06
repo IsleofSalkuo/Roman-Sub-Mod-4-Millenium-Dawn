@@ -1,0 +1,24 @@
+﻿l_english:
+ ###### LAWS
+ #### Custom Ideas
+ non_core_laws:0 "Laws of Non Core States"
+ ### Non Core Laws
+ ## Acceptance Laws
+ non_core_acceptance_laws:0 "Non Core Civil Rights"
+ let_them_starve:0 "Let Them Starve"
+ send_them_to_the_fields:0 "Send Them To The Fields"
+ send_them_into_the_mines:0 "Send Them Into The Mines"
+ let_them_produce_weapons:0 "Let Them Produce Weapons"
+ force_them_to_war:0 "Force Them To War"
+ accept_them_as_citizens:0 "Accept Them As Citizens"
+ ## Conscription Laws
+ non_core_mapower_laws:0 "Non Core Conscription Law"
+ disarmed_non_core:0 "Disarmed Non Core"
+ volunteery_non_core:0 "Volunteers Of The Non Core"
+ limited_conscription_non_core:0 "Limited Conscription"
+ extensive_conscription_non_core:0 "Extensive Conscription"
+ service_by_non_core:0 "Service By Requirement"
+ all_adults_serve_non_core:0 "All Adults Of The Non Core"
+ scraping_the_non_core:0 "Everyone Needs To Fight"
+ ##
+ 

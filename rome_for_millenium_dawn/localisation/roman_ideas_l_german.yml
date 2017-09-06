@@ -1,0 +1,23 @@
+﻿l_german:
+ ###### LAWS
+ #### Custom Ideas
+ non_core_laws:0 "Gesetze der Nicht Kern Staaten"
+ ### Non Core Laws
+ ## Acceptance Laws
+ non_core_acceptance_laws:0 "Nicht Kern Staaten Menschenrechte"
+ let_them_starve:0 "Lasst Sie Verhungern"
+ send_them_to_the_fields:0 "Schickt Sie In Die Felder"
+ send_them_into_the_mines:0 "Schickt Sie In Die Minen"
+ let_them_produce_weapons:0 "Lasst Sie Waffen Herstellen"
+ force_them_to_war:0 "Zwingt Sie Zu Den Waffen"
+ accept_them_as_citizens:0 "Akzeptiert Sie Als Bürger"
+ ## Conscription Laws
+ non_core_mapower_laws:0 "Nicht Kern Staaten Wehrpflichtsgesetz"
+ disarmed_non_core:0 "Entwaffnete Nicht Kern Staaten"
+ volunteery_non_core:0 "Freiwillige Der Nicht Kern Staaten"
+ limited_conscription_non_core:0 "Geringfüge Wehrpflicht"
+ extensive_conscription_non_core:0 "Umfangreiche Wehrpflicht"
+ service_by_non_core:0 "Wehrpflicht Nach Bedarf"
+ all_adults_serve_non_core:0 "Alle Erwachsenen der Nicht Kern Staaten"
+ scraping_the_non_core:0 "Jeder Muss Kämpfen"
+ ##
