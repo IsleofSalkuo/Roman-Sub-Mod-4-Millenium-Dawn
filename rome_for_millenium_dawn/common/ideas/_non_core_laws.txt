@@ -14,12 +14,15 @@ ideas = {
 					has_government = fascist
 					has_government = communist		
 					has_government = islamist
+			        has_government = nationalist
+					has_government = monarchist
+
 				}	
 			}
 
 			modifier = {
 				consumer_goods_factor = 0.25
-				non_core_manpower = -1.0
+				non_core_manpower = -0.8
 				add_national_unity = 0.5
 				decrease_stability_by_25 = yes
 			}
@@ -37,10 +40,10 @@ ideas = {
 			}
 
 			modifier = {
-				consumer_goods_factor = 0.75
+				consumer_goods_factor = 0.25
 			}
 			
-			default = yes
+			
 			
 			cancel_if_invalid = no
 		}
@@ -68,11 +71,12 @@ ideas = {
 			level = 4
 			
 			available = {
-				production_speed_arms_factory_factor = 0.3
-				production_speed_dockyard_factor = 0.2
+				
 			}
 
 			modifier = {
+			    production_speed_arms_factory_factor = 0.3
+				production_speed_dockyard_factor = 0.2
 			}
 			
 			cancel_if_invalid = no
@@ -116,7 +120,7 @@ ideas = {
 				army_morale_factor = 0.2
 				
 			}
-
+            default = yes
 			cancel_if_invalid = no
 		}
 	}
@@ -185,6 +189,9 @@ ideas = {
 				OR = {
 					has_government = fascist
 					has_government = communist		
+					has_government = islamist
+			        has_government = nationalist
+					has_government = monarchist	
 				}	
 				
 				has_idea = accept_them_as_citizens
@@ -208,6 +215,9 @@ ideas = {
 				OR = {
 					has_government = fascist
 					has_government = communist		
+					has_government = islamist
+			        has_government = nationalist
+					has_government = monarchist	
 				}	
 				
 				has_idea = accept_them_as_citizens
@@ -230,7 +240,10 @@ ideas = {
 			available = {
 				OR = {
 					has_government = fascist
-					has_government = communist	
+					has_government = communist		
+					has_government = islamist
+			        has_government = nationalist
+					has_government = monarchist
 				}
 				
 				has_idea = force_them_to_war
@@ -255,7 +268,10 @@ ideas = {
 			available = {
 				OR = {
 					has_government = fascist
-					has_government = communist
+					has_government = communist		
+					has_government = islamist
+			        has_government = nationalist
+					has_government = monarchist
 				}	
 				
 				has_idea = force_them_to_war
