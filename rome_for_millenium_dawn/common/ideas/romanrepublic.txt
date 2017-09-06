@@ -3,7 +3,7 @@ ideas = {
 	country = {
 			
 		RME_government = {
-		    picture = romanideas
+		    picture = roman_military
 			
 			allowed = { always = no }
 			
@@ -20,7 +20,7 @@ ideas = {
 		}
 		
 		RME_factories = {
-		    picture = romanideas
+		    picture = roman_factories
 			
 			allowed = { always = no }
 			
