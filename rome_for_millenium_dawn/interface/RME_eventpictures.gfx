@@ -1,0 +1,7 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_roman_news_pic_1"
+		texturefile = "gfx/interface/event_pictures/roman_news_pic_1.dds"
+	}
+}
