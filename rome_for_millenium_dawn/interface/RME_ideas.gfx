@@ -4,4 +4,62 @@ spriteTypes = {
 		name = "GFX_idea_romanideas"
 		texturefile = "gfx/interface/ideas/RME/romanideas.dds"
 		}
+		
+	
+	### NON CORE LAWS
+	# Acceptance
+	spriteType = {
+		name = "GFX_idea_send_them_into_the_mines"
+		texturefile = "gfx/interface/ideas/RME/NonCore/Acceptance/idea_send_them_into_the_mines.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_send_them_to_the_fields"
+		texturefile = "gfx/interface/ideas/RME/NonCore/Acceptance/idea_send_them_to_the_fields.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_force_them_to_war"
+		texturefile = "gfx/interface/ideas/RME/NonCore/Acceptance/idea_force_them_to_war.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_let_them_starve"
+		texturefile = "gfx/interface/ideas/RME/NonCore/Acceptance/idea_let_them_starve.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_let_them_produce_weapons"
+		texturefile = "gfx/interface/ideas/RME/NonCore/Acceptance/idea_let_them_produce_weapons.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_accept_them_as_citizens"
+		texturefile = "gfx/interface/ideas/RME/NonCore/Acceptance/idea_accept_them_as_citizens.dds"
+	}
+	
+	# Conscription
+	spriteType = {
+		name = "GFX_idea_disarmed_non_core"
+		texturefile = "gfx/interface/ideas/RME/NonCore/Conscription/idea_disarmed_non_core.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_volunteery_non_core"
+		texturefile = "gfx/interface/ideas/RME/NonCore/Conscription/idea_volunteery_non_core.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_limited_conscription_non_core"
+		texturefile = "gfx/interface/ideas/RME/NonCore/Conscription/idea_limited_conscription_non_core.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_extensive_conscription_non_core"
+		texturefile = "gfx/interface/ideas/RME/NonCore/Conscription/idea_extensive_conscription_non_core.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_service_by_non_core"
+		texturefile = "gfx/interface/ideas/RME/NonCore/Conscription/idea_service_by_non_core.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_all_adults_serve_non_core"
+		texturefile = "gfx/interface/ideas/RME/NonCore/Conscription/idea_all_adults_serve_non_core.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_scraping_the_non_core"
+		texturefile = "gfx/interface/ideas/RME/NonCore/Conscription/idea_scraping_the_non_core.dds"
+	}
 }	
