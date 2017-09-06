@@ -1,0 +1,10 @@
+on_actions = {
+	#Not run on a specific country.
+	on_startup = {
+		effect = {
+			every_country = {
+				country_event = roman_mod_welcome_message.1			#Roman Mod Welcome Message
+			}
+		}
+	}
+}
