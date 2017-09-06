@@ -1,0 +1,20 @@
+###########################
+# Roman Mod Welcome Message
+###########################
+
+add_namespace = roman_mod_welcome_message
+
+# Roman Mod Welcome Message
+country_event = {
+	id = roman_mod_welcome_message.1
+	title = roman_mod_welcome_message.1.t
+	desc = roman_mod_welcome_message.1.d
+	picture = GFX_roman_news_pic_1
+	
+	major = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = roman_mod_welcome_message.1.a
+	}
+}
