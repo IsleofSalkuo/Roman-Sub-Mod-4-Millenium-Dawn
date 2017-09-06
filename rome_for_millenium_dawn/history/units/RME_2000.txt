@@ -675,68 +675,68 @@ units = {
 		name = "Comando dei Sommergibili"
 		base = 11751
 		location = 11751
-		ship = { name = "Nazario Sauro (S-518)" definition = Submarine equipment = { submarine_1 = { amount = 1 owner = ITA } } }
-		ship = { name = "Carlo Feccia di Cossato (S-519)" definition = Submarine equipment = { submarine_1 = { amount = 1 owner = ITA } } }
-		ship = { name = "Leonardo da Vinci (S-520)" definition = Submarine equipment = { submarine_1 = { amount = 1 owner = ITA } } }
-		ship = { name = "Guglielmo Marconi (S-521)" definition = Submarine equipment = { submarine_1 = { amount = 1 owner = ITA } } }
-		ship = { name = "Salvatore Pelosi (S-522)" definition = Submarine equipment = { submarine_1 = { amount = 1 owner = ITA } } }
-		ship = { name = "Giuliano Prini (S-523)" definition = Submarine equipment = { submarine_1 = { amount = 1 owner = ITA } } }
-		ship = { name = "Primo Longobardo (S-524)" definition = Submarine equipment = { submarine_1 = { amount = 1 owner = ITA } } }
-		ship = { name = "Gianfranco Gazzana Priaroggia (S-525)" definition = Submarine equipment = { submarine_1 = { amount = 1 owner = ITA } } }
+		ship = { name = "Nazario Sauro (S-518)" definition = Submarine equipment = { submarine_1 = { amount = 2 owner = RME } } }
+		ship = { name = "Carlo Feccia di Cossato (S-519)" definition = Submarine equipment = { submarine_1 = { amount = 2 owner = RME } } }
+		ship = { name = "Leonardo da Vinci (S-520)" definition = Submarine equipment = { submarine_1 = { amount = 2 owner = RME } } }
+		ship = { name = "Guglielmo Marconi (S-521)" definition = Submarine equipment = { submarine_1 = { amount = 2 owner = RME } } }
+		ship = { name = "Salvatore Pelosi (S-522)" definition = Submarine equipment = { submarine_1 = { amount = 2 owner = RME } } }
+		ship = { name = "Giuliano Prini (S-523)" definition = Submarine equipment = { submarine_1 = { amount = 2 owner = RME } } }
+		ship = { name = "Primo Longobardo (S-524)" definition = Submarine equipment = { submarine_1 = { amount = 2 owner = RME } } }
+		ship = { name = "Gianfranco Gazzana Priaroggia (S-525)" definition = Submarine equipment = { submarine_1 = { amount = 2 owner = RME } } }
 	}	
 	navy = {
 		name = "Primo Gruppo Navale"
 		base = 11751
 		location = 11751
-		ship = { name = "Maestrale (F-570)" definition = Frigate equipment = { frigate_1 = { amount = 1 owner = ITA } } }
-		ship = { name = "Grecale (F-571)" definition = Frigate equipment = { frigate_1 = { amount = 1 owner = ITA } } }
-		ship = { name = "Libeccio (F-572)" definition = Frigate equipment = { frigate_1 = { amount = 1 owner = ITA } } }
-		ship = { name = "Scirocco (F-573)" definition = Frigate equipment = { frigate_1 = { amount = 1 owner = ITA } } }
-		ship = { name = "Bersagliere (F-584)" definition = Frigate equipment = { frigate_1 = { amount = 1 owner = ITA } } }
-		ship = { name = "Lupo (F-564)" definition = Frigate equipment = { frigate_1 = { amount = 1 owner = ITA } } }
-		ship = { name = "Sagittario (F-565)" definition = Frigate equipment = { frigate_1 = { amount = 1 owner = ITA } } }
-		ship = { name = "Perseo (F-566)" definition = Frigate equipment = { frigate_1 = { amount = 1 owner = ITA } } }
-		ship = { name = "Orsa (F-567)" definition = Frigate equipment = { frigate_1 = { amount = 1 owner = ITA } } }
+		ship = { name = "Maestrale (F-570)" definition = Frigate equipment = { frigate_1 = { amount = 2 owner = RME } } }
+		ship = { name = "Grecale (F-571)" definition = Frigate equipment = { frigate_1 = { amount = 2 owner = RME } } }
+		ship = { name = "Libeccio (F-572)" definition = Frigate equipment = { frigate_1 = { amount = 2 owner = RME } } }
+		ship = { name = "Scirocco (F-573)" definition = Frigate equipment = { frigate_1 = { amount = 2 owner = RME } } }
+		ship = { name = "Bersagliere (F-584)" definition = Frigate equipment = { frigate_1 = { amount = 2 owner = RME } } }
+		ship = { name = "Lupo (F-564)" definition = Frigate equipment = { frigate_1 = { amount = 2 owner = RME } } }
+		ship = { name = "Sagittario (F-565)" definition = Frigate equipment = { frigate_1 = { amount = 2 owner = RME } } }
+		ship = { name = "Perseo (F-566)" definition = Frigate equipment = { frigate_1 = { amount = 2 owner = RME } } }
+		ship = { name = "Orsa (F-567)" definition = Frigate equipment = { frigate_1 = { amount = 2 owner = RME } } }
 		
 	}
 	navy = {
 		name = "Secondo Gruppo Navale"
 		base = 9784
 		location = 9784
-		ship = { name = "Luigi Durand de la Penne (D-560)" definition = Destroyer equipment = { destroyer_2 = { amount = 1 owner = ITA } } }
-		ship = { name = "Francesco Mimbelli (D-561)" definition = Destroyer equipment = { destroyer_2 = { amount = 1 owner = ITA } } }
-		ship = { name = "Aliseo (F-574)" definition = Frigate equipment = { frigate_1 = { amount = 1 owner = ITA } } }
-		ship = { name = "Euro (F-575)" definition = Frigate equipment = { frigate_1 = { amount = 1 owner = ITA } } }
-		ship = { name = "Espero (F-576)" definition = Frigate equipment = { frigate_1 = { amount = 1 owner = ITA } } }
-		ship = { name = "Zeffiro (F-577)" definition = Frigate equipment = { frigate_1 = { amount = 1 owner = ITA } } }
-		ship = { name = "Artigliere (F-582)" definition = Frigate equipment = { frigate_1 = { amount = 1 owner = ITA } } }
-		ship = { name = "Vittorio Veneto (550)" definition = missile_cruiser equipment = { missile_cruiser_1 = { amount = 1 owner = ITA } } }
+		ship = { name = "Luigi Durand de la Penne (D-560)" definition = Destroyer equipment = { destroyer_2 = { amount = 2 owner = RME } } }
+		ship = { name = "Francesco Mimbelli (D-561)" definition = Destroyer equipment = { destroyer_2 = { amount = 2 owner = RME } } }
+		ship = { name = "Aliseo (F-574)" definition = Frigate equipment = { frigate_1 = { amount = 2 owner = RME } } }
+		ship = { name = "Euro (F-575)" definition = Frigate equipment = { frigate_1 = { amount = 2 owner = RME } } }
+		ship = { name = "Espero (F-576)" definition = Frigate equipment = { frigate_1 = { amount = 2 owner = RME } } }
+		ship = { name = "Zeffiro (F-577)" definition = Frigate equipment = { frigate_1 = { amount = 2 owner = RME } } }
+		ship = { name = "Artigliere (F-582)" definition = Frigate equipment = { frigate_1 = { amount = 2 owner = RME } } }
+		ship = { name = "Vittorio Veneto (550)" definition = missile_cruiser equipment = { missile_cruiser_1 = { amount = 2 owner = RME } } }
 	}	
 	navy = {
 		name = "Terzo Gruppo Navale"
 		base = 6788
 		location = 6788
-		ship = { name = "Giuseppe Garibaldi (551)" definition = carrier equipment = { carrier_1 = { amount = 1 owner = ITA } } air_wings = { jet_attack_equipment_2 = { owner = ITA amount = 18 } } }
-		ship = { name = "Ardito (D-550)" definition = Destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA } } }
-		ship = { name = "Audace (D-551)" definition = Destroyer equipment = { destroyer_1 = { amount = 1 owner = ITA } } }
-		ship = { name = "Alpino (F-580)" definition = Frigate equipment = { frigate_1 = { amount = 1 owner = ITA } } }
-		ship = { name = "Carabiniere (F-581)" definition = Frigate equipment = { frigate_1 = { amount = 1 owner = ITA } } }
-		ship = { name = "Aviere (F-583)" definition = Frigate equipment = { frigate_1 = { amount = 1 owner = ITA } } }
+		ship = { name = "Giuseppe Garibaldi (551)" definition = carrier equipment = { carrier_1 = { amount = 3 owner = RME } } air_wings = { jet_attack_equipment_2 = { owner = RME amount = 28 } } }
+		ship = { name = "Ardito (D-550)" definition = Destroyer equipment = { destroyer_1 = { amount = 2 owner = RME } } }
+		ship = { name = "Audace (D-551)" definition = Destroyer equipment = { destroyer_1 = { amount = 2 owner = RME } } }
+		ship = { name = "Alpino (F-580)" definition = Frigate equipment = { frigate_1 = { amount = 2 owner = RME } } }
+		ship = { name = "Carabiniere (F-581)" definition = Frigate equipment = { frigate_1 = { amount = 2 owner = RME } } }
+		ship = { name = "Aviere (F-583)" definition = Frigate equipment = { frigate_1 = { amount = 2 owner = RME } } }
 	}
 	navy = {
 		name = "Quarto gruppo Navale"
 		base = 4159
 		location = 4159
-		ship = { name = "Minerva (F-551)" definition = Corvette equipment = { corvette_2 = { amount = 1 owner = ITA } } }
-		ship = { name = "Sfinge (F-554)" definition = Corvette equipment = { corvette_2 = { amount = 1 owner = ITA } } }
-		ship = { name = "Driade (F-555)" definition = Corvette equipment = { corvette_2 = { amount = 1 owner = ITA } } }
-		ship = { name = "Chimera (F-556)" definition = Corvette equipment = { corvette_2 = { amount = 1 owner = ITA } } }
-		ship = { name = "Fenice (F-557)" definition = Corvette equipment = { corvette_2 = { amount = 1 owner = ITA } } }
-		ship = { name = "Sibilla (F-558)" definition = Corvette equipment = { corvette_2 = { amount = 1 owner = ITA } } }
-		ship = { name = "Cassiopea (P-401)" definition = Corvette equipment = { corvette_2 = { amount = 1 owner = ITA } } }
-		ship = { name = "Libra (P-402)" definition = Corvette equipment = { corvette_2 = { amount = 1 owner = ITA } } }
-		ship = { name = "Spica (P-403)" definition = Corvette equipment = { corvette_2 = { amount = 1 owner = ITA } } }
-		ship = { name = "Vega (P-404)" definition = Corvette equipment = { corvette_2 = { amount = 1 owner = ITA } } }
+		ship = { name = "Minerva (F-551)" definition = Corvette equipment = { corvette_2 = { amount = 2 owner = RME } } }
+		ship = { name = "Sfinge (F-554)" definition = Corvette equipment = { corvette_2 = { amount = 2 owner = RME } } }
+		ship = { name = "Driade (F-555)" definition = Corvette equipment = { corvette_2 = { amount = 2 owner = RME } } }
+		ship = { name = "Chimera (F-556)" definition = Corvette equipment = { corvette_2 = { amount = 2 owner = RME } } }
+		ship = { name = "Fenice (F-557)" definition = Corvette equipment = { corvette_2 = { amount = 2 owner = RME } } }
+		ship = { name = "Sibilla (F-558)" definition = Corvette equipment = { corvette_2 = { amount = 2 owner = RME } } }
+		ship = { name = "Cassiopea (P-401)" definition = Corvette equipment = { corvette_2 = { amount = 2 owner = RME } } }
+		ship = { name = "Libra (P-402)" definition = Corvette equipment = { corvette_2 = { amount = 2 owner = RME } } }
+		ship = { name = "Spica (P-403)" definition = Corvette equipment = { corvette_2 = { amount = 2 owner = RME } } }
+		ship = { name = "Vega (P-404)" definition = Corvette equipment = { corvette_2 = { amount = 2 owner = RME } } }
 	}
 }
 	
@@ -747,13 +747,13 @@ instant_effect = {
 	
 	add_equipment_production = {
 		equipment = {
-			type = infantry_equipment_1
-			creator = "ITA"
+			type = infantry_equipment_2
+			creator = "RME"
 		}
-		requested_factories = 3
+		requested_factories = 6
 		progress = 0.1
 		efficiency = 100
-		amount = 100000
+		amount = 200000
 	}
 }
 
@@ -762,24 +762,24 @@ air_wings = {
 	162 = {
 		#F-16A/B
 		jet_multirole_equipment_3 = {
-			owner = "ITA" 
-			amount = 30
+			owner = "RME" 
+			amount = 200
 		}
 
 	}
 	156 = {
 		#F-104G Starfighter
 		jet_multirole_equipment_1 = {
-			owner = "ITA" 
-			amount = 36
+			owner = "RME" 
+			amount = 200
 		}
 
 	}
 	115 = {
 		#F-104G Starfighter
 		jet_multirole_equipment_1 = {
-			owner = "ITA" 
-			amount = 36
+			owner = "RME" 
+			amount = 450
 		}
 
 	}
@@ -787,15 +787,15 @@ air_wings = {
 		#Tornado IDS
 		jet_attack_equipment_2 = {
 			owner = "GER" 
-			amount = 57
+			amount = 52
 		}
 
 	}
 	160 = {
 		#AMX
 		jet_attack_equipment_2 = {
-			owner = "ITA" 
-			amount = 60
+			owner = "RME" 
+			amount = 350
 		}
 
 	}

@@ -110,7 +110,7 @@ add_ideas = {
 	idea_united_nations_security_council_member
 	RME_government
 	RME_factories
-	extensive_conscription
+	limited_conscription
 }
 
 set_politics = {
